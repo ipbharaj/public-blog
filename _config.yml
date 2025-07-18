@@ -1,6 +1,6 @@
 title: "Inderpreet's Blog"
 description: "Daily ideas, DevOps tips, and leadership insights."
-baseurl: ""
+baseurl: "/public-blog"
 url: "https://ipbharaj.github.io"
 theme: null
 markdown: kramdown
