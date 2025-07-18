@@ -1,7 +1,7 @@
 title: "Inderpreet's Blog"
 description: "Daily ideas, DevOps tips, and leadership insights."
 baseurl: ""
-url: "https://<your-username>.github.io"
+url: "https://ipbharaj.github.io"
 theme: null
 markdown: kramdown
 plugins:
