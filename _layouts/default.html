@@ -3,21 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1><a href="/">{{ site.title }}</a></h1>
-    <nav>
-        <a href="{{ site.baseurl }}/">Home</a> |
+
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Inderpreet Singh</div>
+      <nav class="nav-links">
+        <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/about">About</a>
-    </nav>
+      </nav>
+    </div>
   </header>
-  <main>
+
+  <main class="content">
     {{ content }}
   </main>
-  <footer>
+
+  <footer class="site-footer">
     <p>© {{ site.time | date: '%Y' }} Inderpreet Singh</p>
   </footer>
+
 </body>
 </html>

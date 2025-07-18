@@ -3,10 +3,9 @@ layout: default
 title: Home
 ---
 
-# Welcome
+# Welcome to My Blog
 
-This is my daily blog where I share technical ideas, DevOps tips, and things I’m learning. Stay curious and keep building!
+Hi, I'm **Inderpreet Singh**, a DevOps Engineer and Tech Leader passionate about automation, security, and scalable infrastructure.  
+This blog is my public notebook — a place to share insights, struggles, tools, and everything I learn on the journey.
 
-{% for post in site.posts %}
-  - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{% endfor %}
+🚀 Stay tuned for daily posts on DevOps, Kubernetes, CI/CD, cloud strategies, leadership, and productivity hacks.
