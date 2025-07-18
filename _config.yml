@@ -1,0 +1,12 @@
+title: "Inderpreet's Blog"
+description: "Daily ideas, DevOps tips, and leadership insights."
+baseurl: ""
+url: "https://<your-username>.github.io"
+theme: null
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock

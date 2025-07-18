@@ -1,0 +1,39 @@
+body {
+    background-color: #E6F7FF;
+    color: #333333;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  a {
+    color: #007ACC;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    color: #3399FF;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #007ACC;
+  }
+  
+  article {
+    background: #ffffff;
+    border: 1px solid #B3E5FC;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
